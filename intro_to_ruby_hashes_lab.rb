@@ -1,3 +1,5 @@
+require 'pry'
+
 def base_hash
   {
     :railroads => {}
@@ -54,21 +56,21 @@ monopoly =  {
     },
     :names=>
     {
-      :reading_railroad=>
+      "reading_railroad"=>
       {
-        "mortgage_value"=>"$100"
+        :mortgage_value =>"$100"
       },
       :pennsylvania_railroad=>
       {
-        "mortgage_value"=>"$200"
+        :mortgage_value =>"$200"
       },
       :b_and_o_railroad=>
       {
-        "mortgage_value"=>"$400"
+        :mortgage_value =>"$400"
       },
-      :shortline=>
+      :shortline_railroad=>
       {
-        "mortgage_value"=>"$800"
+        :mortgage_value =>"$800"
       }
     }
   }
